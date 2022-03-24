@@ -5,6 +5,7 @@ body {
   padding: 0%;
   margin: 0%;
   font-family: Arial, Helvetica, sans-serif;
+  display: flex;
 }
 
 nav {
@@ -98,6 +99,15 @@ textarea {
   font-size: 30px;
 }
 
+.logOutButton {
+  transition-duration: 0.4s;
+  font-size: 16pxs;
+}
+
+.logOutButton:hover {
+  background-color: #ec7c7c;
+  color: white;
+}
 
 .login-with-google-btn {
   cursor: pointer;
